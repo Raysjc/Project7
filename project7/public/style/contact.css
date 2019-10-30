@@ -1,0 +1,98 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.box{
+    color: rgb(2, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.other{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(15, 1, 1);
+}
+
+form{
+    margin-top: 1%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    
+}
+
+.form-control{
+    width: 60%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(25, 182, 255);
+    color: #050000;
+    margin-bottom: 2%;
+}
+
+.contact-title{
+    padding: 2%;
+    text-transform: uppercase;
+    color: black;
+}
+
+input{
+    height: 20%;
+    font-size: 1.2rem;
+}
+
+form .submit{
+    background:rgb(25, 182, 255);
+    border-color: transparent;
+    color: #fdfafa;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    height: 5%;
+    margin-top: 10px;
+}
+
+textarea{
+    font-size: 1.1rem;
+}
+
+form .reset{
+    background: rgb(250, 2, 2);
+    border-color: transparent;
+    color: #f7f5f5;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    height: 5%;
+    margin-top: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.message-sent{
+    background-color: red;
+    border: 1px solid black;
+    margin: 10px 0 10px 0;
+}
+
+.message-sent h6{
+    color: rgb(7, 0, 0);
+    margin-left: 10px;
+}
+
+.container{
+    margin-left: 1px;
+}

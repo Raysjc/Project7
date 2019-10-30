@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--styles-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/catalog.css">
+    <link rel="stylesheet" href="style/admin.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <title>Contact</title>
+    
+</head>
+<body class="other">
+        <header class="header-banner">
+                <div class="banner">
+                    <h1></h1>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">Exhaust Express</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link" href="admin.html">Admin</a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>
+        </header>
+        <section>
+          <div class="box">
+              <div class="contact-title">
+                  <h1>Hello</h1>
+                  <h2>I'm always ready to serve you!</h2>
+                  <div id="alert" class="hide message-sent">
+                      <h6>Message Sent</h6>
+                  </div>
+              </div>
+              
+              
+              <div class="contact-form">
+                  <form action="#">
+
+                      <input type="text" id="txtName" class="form-control" name="fname" placeholder="Full Name" maxlength="30"> <br>
+
+                      <input type="email" id="txtMail" class="form-control" name="email" placeholder="Email" maxlength="30"> 
+
+                      <textarea name="message" id="txtMessage" class="form-control" row="4" placeholder="Message" ></textarea>
+
+                      <input type="button"  id="btnSend" class="form-control submit" value="SEND MESSAGE">
+                      
+                      <input type="reset" class="form-control reset">
+                  
+
+                  </form>
+              </div>
+          </div>     
+        </section>
+        <script src="scripts/jquery-3.4.1.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+        <script src="scripts/contact.js"></script>
+</body>
+</html>

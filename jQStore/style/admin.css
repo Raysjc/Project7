@@ -1,0 +1,14 @@
+.hide{
+    display: none;
+}
+
+.item-saved{
+    background-color: red;
+    border: 1px solid black;
+    margin: 10px 0 10px 0;
+}
+
+.item-saved h6{
+    color: white;
+    text-align: center;
+}

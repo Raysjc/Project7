@@ -1,0 +1,43 @@
+.hide{
+    display: none;
+}
+
+.item-saved{
+    background-color: red;
+    border: 1px solid black;
+    margin: 10px 0 10px 0;
+}
+
+.item-saved h6{
+    color: white;
+    margin-left: 10px;
+}
+
+.container{
+    margin-left: 1px;
+}
+
+.col-7{
+    border-right: 1px solid rgb(25, 182, 255);
+}
+
+h1{
+    color: rgb(25, 182, 255);
+
+}
+
+#messageList li{
+    margin: 10px 0;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(212, 212, 212);
+    padding: 3px 8px;
+}
+
+#messageList{
+    list-style: none;
+    padding-left: 4px;
+}
+
+#messageList li:hover{
+    color: rgb(25, 182, 255);
+}
